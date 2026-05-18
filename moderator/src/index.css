@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Rajdhani:wght@600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Rajdhani', sans-serif;
+  background: #0a0d12;
+  color: #e8edf5;
+  min-height: 100vh;
+}

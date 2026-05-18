@@ -1,0 +1,6 @@
+node_modules/
+.env
+ghostcomms.db
+mod-private-key.pem
+mod-private.pem
+scripts/latest-mod-keys.txt

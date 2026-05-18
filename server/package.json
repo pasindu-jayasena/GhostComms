@@ -1,0 +1,25 @@
+{
+  "name": "ghostcomms-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/dev.ps1",
+    "dev:once": "node src/app.js",
+    "start": "node src/app.js",
+    "generate-mod-keys": "node scripts/generateModKeys.js",
+    "sync-mod-env": "node scripts/syncModEnv.mjs",
+    "test": "node test/integration.mjs"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^11.0.5",
+    "ws": "^8.18.0"
+  }
+}
